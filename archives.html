@@ -1,0 +1,12 @@
+---
+layout: blog
+link: archives
+---
+<h1>Archives</h1>
+
+<div id='archives'>
+  {% for post in site.posts %}
+    <a href="{{ post.url }}">{{ post.title }}</a> &ndash; <span>{{ post.date | date_to_string }}</span>
+    <br>
+  {% endfor %}
+</div>

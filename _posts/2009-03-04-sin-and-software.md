@@ -1,0 +1,7 @@
+--- 
+layout: post
+title: Sin and Software
+wordpress_id: 50
+wordpress_url: http://www.sixfeetover.org/?p=50
+---
+It's amazing how sin creates difficulties in software development. I (and my coworkers) constantly have to deal with various cases in our code that would not exist apart from sin. For example, our database used to only support someone having two parents. Sadly in our world today that is not enough, so now someone can have four parents. In a few cases, even that has not been enough, but we've put our foot down and said that that is not a data issue, that is a personal issue and an extreme edge case that we will not cater to. We also run data integrity checks to make sure our data makes sense - for example "Mrs. John" wouldn't make sense because "John" is a male name, and "Mrs." is a female prefix. We also check to make sure someone doesn't have more than one father or mother. Sadly, we can't run that particular check in Massachusetts. (Admit it - even if you support gay marriage, when you read "more than one father", you subconciously agreed that should not happen.)Now I'm dealing with another issue where I need to consider not pairing certain people together for certain events. How much easier this programming would be without having to worry about whether Person A likes Person B.So, it can just be crazy to consider how sin affects even this. Of course, maybe there would be no such thing as "programming" if there were no sin...but I'm not so sure about that.
