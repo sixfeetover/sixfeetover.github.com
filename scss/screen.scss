@@ -54,7 +54,7 @@ body {
   
   #main {
     @include column(10); border-top: 1px solid $red; border-bottom: 3px solid $red; background-color: #f9f9f9; text-shadow: 0 1px 0 #fff; z-index: 1; min-height: 250px;
-    @include box-shadow(rgb(51, 51, 51), -1px, -1px, 8px, -5px); @include clearfix;
+    @include box-shadow(rgb(51, 51, 51), -1px, -1px, 8px, -5px); @include clearfix; overflow: visible;
     #content {
       padding: 2em;
     }
